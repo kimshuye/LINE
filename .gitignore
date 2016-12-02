@@ -23,3 +23,6 @@ develop-eggs
 
 # Vim
 .*.sw[op]
+
+# File
+line/user.py

@@ -1,9 +1,9 @@
-from line import LineClient, LineGroup, LineContact
+from line import LineClient, LineGroup, LineContact,User
 
-USERNAME = 'ID'
-PASSWORD = 'PASS'
+USERNAME = User.data[0]['email']
+PASSWORD = User.data[0]['password']
 GROUPNAME = 'GroupTest'
-MSG = 'send Message form bot'
+MSG = 'send Message form bot!!!!'
 
 #optional
 COMPUTERNEME = 'kimshuye_bot'

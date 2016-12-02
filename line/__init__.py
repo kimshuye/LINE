@@ -11,6 +11,7 @@
 from .client import LineClient
 from .api import LineAPI
 from .models import LineGroup, LineContact, LineRoom, LineBase, LineMessage
+from .user import User
 
 __copyright__ = 'Copyright 2014 by Taehoon Kim'
 __version__ = '0.8.2'
@@ -26,4 +27,5 @@ __all__ = [
     'LineGroup', 'LineContact', 'LineRoom', 'LineBase', 'LineMessage',
     # Line Thrift API
     'LineAPI', 
+    'User'
 ]

@@ -1,15 +1,14 @@
-from line import LineClient, LineGroup, LineContact
-#del client
+from line import LineClient, LineGroup, LineContact,User
+
 try:
-    client = LineClient("ID", "PASS")
+    client = LineClient(User.data[0]['email'], User.data[0]['password'])
     #client = LineClient(authToken="AUTHTOKEN")
     
 except:
     print "Login Failed"
 
-
-authToken = client.authToken
-print (authToken)
+#authToken = client.authToken
+#print (authToken)
 
 while True:
     op_list = []
